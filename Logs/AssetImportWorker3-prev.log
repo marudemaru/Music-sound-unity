@@ -1,0 +1,514 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.11f1 (9b156bbbd4df) revision 10163563'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 16124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-07-31T04:57:25Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/exp4_g2/Desktop/2025/music station
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52646
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/exp4_g2/Desktop/2025/music station
+C:/Users/exp4_g2/Desktop/2025/music station
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17448]  Target information:
+
+Player connection [17448]  * "[IP] 172.25.51.248 [Port] 0 [Flags] 2 [Guid] 1635997960 [EditorId] 1635997960 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HURLPC7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 25.22 ms, found 16 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 2.77 ms.
+Initialize engine version: 6000.1.11f1 (9b156bbbd4df)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/exp4_g2/Desktop/2025/music station/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4619
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003148 seconds.
+- Loaded All Assemblies, in  0.426 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 431 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (755ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (524ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.044 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 28.93 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 9.04 ms, found 16 plugins.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    109      0 --:--:-- --:--:-- --:--:--   110
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.348 seconds
+Domain Reload Profiling: 2378ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (779ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (223ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (866ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.45 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8848 unused Assets / (4.8 MB). Loaded Objects now: 9647.
+Memory consumption went from 222.6 MB to 217.8 MB.
+Total: 9.440900 ms (FindLiveObjects: 1.455300 ms CreateObjectMapping: 0.474000 ms MarkObjects: 5.452300 ms  DeleteObjects: 2.058000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8739.492044 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Kiosk.prefab
+  artifactKey: Guid(7c9d82443a06ce344ba30702e324f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Kiosk.prefab using Guid(7c9d82443a06ce344ba30702e324f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd02c8d6c50e0833040aeecbadef6faf') in 0.4263958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.mat
+  artifactKey: Guid(da2abf88baab1cf4c812706ea1d717fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.mat using Guid(da2abf88baab1cf4c812706ea1d717fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbaf625ebfe5b7046aae334d4bf86209') in 0.0402457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/ControllerPokeInteractor.prefab
+  artifactKey: Guid(3185bd5ce16a42d4ab66a3ecb03b517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/ControllerPokeInteractor.prefab using Guid(3185bd5ce16a42d4ab66a3ecb03b517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d67ad6e7af5a809e53cacb997a181ec') in 0.0104561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/fingers_glow_mask.png
+  artifactKey: Guid(f59ecc31eb242104ea5fd5d1e4034158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/fingers_glow_mask.png using Guid(f59ecc31eb242104ea5fd5d1e4034158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea1ed0bce72007ae6c09a3a56f32b1dc') in 0.0168011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandPokeInteractor.prefab
+  artifactKey: Guid(77ea56f1fb7810e43b2a6409bdf2d89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandPokeInteractor.prefab using Guid(77ea56f1fb7810e43b2a6409bdf2d89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ea4d064e4f059af3a89950f468d380e') in 0.0033763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Base color.mat
+  artifactKey: Guid(2fb18c0e4bc7f8b42bf5e64bd3a8f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Base color.mat using Guid(2fb18c0e4bc7f8b42bf5e64bd3a8f309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa49b8624d8db7daa1893437e99aba9a') in 0.0091634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/batteryIndicator_mat.mat
+  artifactKey: Guid(166781bb7f1500647b5c851246529e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/batteryIndicator_mat.mat using Guid(166781bb7f1500647b5c851246529e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c657305b720dfd62a8b336a8df7ae12') in 0.0070886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.946675 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-brickwall.mat
+  artifactKey: Guid(035d6b57e90577140853265b47773b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-brickwall.mat using Guid(035d6b57e90577140853265b47773b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f9b72f653d1e32c833a069bd32e957') in 0.0091108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-plastic.mat
+  artifactKey: Guid(f8c96e9bbf333d04b96def7e27ca6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-plastic.mat using Guid(f8c96e9bbf333d04b96def7e27ca6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f68129cccfd1a9649889c89e7ee7321') in 0.0094739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Metallic.png
+  artifactKey: Guid(f158c2a98f9d50941b39e074c6a24c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Metallic.png using Guid(f158c2a98f9d50941b39e074c6a24c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee45d3c37730a8921d5037968ba6979b') in 0.005933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Lit.mat
+  artifactKey: Guid(e8404a06f99870947a3bb6bde31c4438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Lit.mat using Guid(e8404a06f99870947a3bb6bde31c4438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6df88056c897e0c719376199a07c9e1b') in 0.0064854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Left_BaseColor_AO_AlphaRoughness.png
+  artifactKey: Guid(13dc32de166944441a97d1299a9ab3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Left_BaseColor_AO_AlphaRoughness.png using Guid(13dc32de166944441a97d1299a9ab3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e3880b82d8ab4fa305b8e68ceb0b6fd') in 0.0078564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionLocation.fbx
+  artifactKey: Guid(7f627b79a94d7e148b334b7b58ee8524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionLocation.fbx using Guid(7f627b79a94d7e148b334b7b58ee8524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152f49c6c9f2ed1552752d9a1ea158b6') in 0.0347747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProRight_Material.fbx
+  artifactKey: Guid(0ca4e42160d482e4291a4ce32b66eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProRight_Material.fbx using Guid(0ca4e42160d482e4291a4ce32b66eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52cd77f16a80c41edbf87146cf1d111') in 0.0226244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_Normal.tga
+  artifactKey: Guid(9d9e66797c21c7f44991121ecca5c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_Normal.tga using Guid(9d9e66797c21c7f44991121ecca5c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40a61813acc984e6880c0db9806b7015') in 0.0109791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProLeft_Material.fbx
+  artifactKey: Guid(60d199d558e76534aaee8eb2e22c9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProLeft_Material.fbx using Guid(60d199d558e76534aaee8eb2e22c9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4aeb045a96a6ca44a5f656478754aaa') in 0.018047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/left_touch_controller_model_skel.fbx
+  artifactKey: Guid(2df03d4f76dd705489d55c5645f6739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/left_touch_controller_model_skel.fbx using Guid(2df03d4f76dd705489d55c5645f6739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e066c4663a567d2f6f3b0cde902f5af9') in 2.2760377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_r_lo_BaseColor.png
+  artifactKey: Guid(29d0e6fd361fefb4a828f0d22aeb544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_r_lo_BaseColor.png using Guid(29d0e6fd361fefb4a828f0d22aeb544d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4bd1947c767fcbde6cca64d0a65084') in 0.0073279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Kiosk.prefab
+  artifactKey: Guid(bde69e2cf7eb2f5408ab6110e17096a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Kiosk.prefab using Guid(bde69e2cf7eb2f5408ab6110e17096a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0832f711c0d8ace57917b9b1b2be338c') in 0.0105417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.mat
+  artifactKey: Guid(2650ab5f7cf14b742a0bb0314c743824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.mat using Guid(2650ab5f7cf14b742a0bb0314c743824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0729165ceb07095c12e28793c94ac070') in 0.0093677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerRayInteractor.prefab
+  artifactKey: Guid(e3dbae93692eae04899ebba814ee2fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerRayInteractor.prefab using Guid(e3dbae93692eae04899ebba814ee2fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b178b39f30b0c220bac1d44eb20f392c') in 0.0112927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerPokeInteractor.prefab
+  artifactKey: Guid(1b24c1c0d45eeda4ea19bcdc40bf0625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerPokeInteractor.prefab using Guid(1b24c1c0d45eeda4ea19bcdc40bf0625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b700460617fc0fdea12f2f546cc2e596') in 0.0059799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk_0001.bmp
+  artifactKey: Guid(b890370eb18bbc544bdc695d52f522d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk_0001.bmp using Guid(b890370eb18bbc544bdc695d52f522d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2bc792b8705649c96a46f8ab28cd7b3') in 0.00677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hands.prefab
+  artifactKey: Guid(61ce6a5d884652146b7f74a34cb91fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hands.prefab using Guid(61ce6a5d884652146b7f74a34cb91fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd1d3fd7a773e84d955c11910250db31') in 0.0053248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_MetallicSmoothness.tga
+  artifactKey: Guid(59aafd5436d324d4a9038c42c76ed4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_MetallicSmoothness.tga using Guid(59aafd5436d324d4a9038c42c76ed4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46452d374d6540a821036b7b38c8d4dc') in 0.0076603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Locomotor.prefab
+  artifactKey: Guid(5f2aab21730df1946b2583b79df8ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Locomotor.prefab using Guid(5f2aab21730df1946b2583b79df8ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6474ac28d71ded938ba6da159217d03') in 0.0064646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/fingers_glow_mask.png
+  artifactKey: Guid(f7d1d1280dd245b42bd7037686e67496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/fingers_glow_mask.png using Guid(f7d1d1280dd245b42bd7037686e67496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd45f879a9c429f568d61c0e5c124d0db') in 0.0088112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandPokeInteractor.prefab
+  artifactKey: Guid(88dafdfc44762b44c91d33d5257bbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandPokeInteractor.prefab using Guid(88dafdfc44762b44c91d33d5257bbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59dcce15b22ec69495eb4c4a053c5024') in 0.0018041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hmd.prefab
+  artifactKey: Guid(13626d86700d54a42b4d5b3394d97643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hmd.prefab using Guid(13626d86700d54a42b4d5b3394d97643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6b4c234287ee580d2e0ab3de7eb9e53') in 0.0020584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Legacy_OVRControllerVisual.prefab
+  artifactKey: Guid(f0d200e789e4c324ab26c043d4d1cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Legacy_OVRControllerVisual.prefab using Guid(f0d200e789e4c324ab26c043d4d1cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb02dd93a2ae660a4e49d72639140f53') in 0.1178399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1539
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hammer.obj
+  artifactKey: Guid(8dd348872ba764340bdb49bb0a90adf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Hammer.obj using Guid(8dd348872ba764340bdb49bb0a90adf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17824f0deab9d402a1b071b4dc7b60e6') in 0.0169258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk.fbx
+  artifactKey: Guid(8ac15e4d37933fe45a964f2e69783438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk.fbx using Guid(8ac15e4d37933fe45a964f2e69783438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cad66817b8fce2ba7ab9a3d7359def2') in 0.0226152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandRayInteractor.prefab
+  artifactKey: Guid(843efb4019d7aa54c86e7c176eafe83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandRayInteractor.prefab using Guid(843efb4019d7aa54c86e7c176eafe83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01cc8ed51b38c87f5c739a5474546682') in 0.0127518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HotspotMaterial.mat
+  artifactKey: Guid(3e968343084e22d4b9787f6a27e55e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HotspotMaterial.mat using Guid(3e968343084e22d4b9787f6a27e55e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ac30989dbbcdc3377ce3e34cef802f') in 0.008022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-windows.mat
+  artifactKey: Guid(574761c179e008a4085271027360beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-windows.mat using Guid(574761c179e008a4085271027360beff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08554ad6a4d3122a2d670bde72d3d816') in 0.0094992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerGrabInteractor.prefab
+  artifactKey: Guid(43efb64b52e9ccd4bb3ccf0438201a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerGrabInteractor.prefab using Guid(43efb64b52e9ccd4bb3ccf0438201a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b8794e8c3410fcc24289c14615f0756') in 0.0031283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

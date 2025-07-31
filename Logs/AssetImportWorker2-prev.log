@@ -1,0 +1,1710 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.11f1 (9b156bbbd4df) revision 10163563'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 16124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-07-31T04:57:25Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/exp4_g2/Desktop/2025/music station
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52646
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/exp4_g2/Desktop/2025/music station
+C:/Users/exp4_g2/Desktop/2025/music station
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18728]  Target information:
+
+Player connection [18728]  * "[IP] 172.25.51.248 [Port] 0 [Flags] 2 [Guid] 4139814692 [EditorId] 4139814692 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HURLPC7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18728] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18728] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 41.89 ms, found 16 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 3.28 ms.
+Initialize engine version: 6000.1.11f1 (9b156bbbd4df)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/exp4_g2/Desktop/2025/music station/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5936 MB
+    Driver:   31.0.15.4619
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001472 seconds.
+- Loaded All Assemblies, in  0.433 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 438 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.798 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (524ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.033 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 31.15 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 9.76 ms, found 16 plugins.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    126      0 --:--:-- --:--:-- --:--:--   127
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.336 seconds
+Domain Reload Profiling: 2354ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (768ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (205ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1147ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (858ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.44 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8848 unused Assets / (5.1 MB). Loaded Objects now: 9647.
+Memory consumption went from 220.5 MB to 215.4 MB.
+Total: 9.615400 ms (FindLiveObjects: 1.393700 ms CreateObjectMapping: 0.434500 ms MarkObjects: 5.632600 ms  DeleteObjects: 2.153300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8739.490302 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandTurnerInteractor.prefab
+  artifactKey: Guid(3b4b7587ad970d24f953168e5e513669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandTurnerInteractor.prefab using Guid(3b4b7587ad970d24f953168e5e513669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bea04e7e5a7023043d4d81db97bc83d2') in 0.4485243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/controller_l_lo_BaseColor.png
+  artifactKey: Guid(a471b0fc5e2859f42bdec1f97bb5ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/controller_l_lo_BaseColor.png using Guid(a471b0fc5e2859f42bdec1f97bb5ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296b02fbeb19d70c6a302cb1cdfb3260') in 0.0188127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Controllers.prefab
+  artifactKey: Guid(44b9418410d870e449aaed347e143478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/Controllers.prefab using Guid(44b9418410d870e449aaed347e143478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1761a945443cccfc689754789c331e74') in 0.0033297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandRayInteractor.prefab
+  artifactKey: Guid(2fd3ef82eef9243498360e80a7d15d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/HandRayInteractor.prefab using Guid(2fd3ef82eef9243498360e80a7d15d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83729773f3218aefae3fe089b9304251') in 0.016044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Controller_OVRControllerVisual.prefab
+  artifactKey: Guid(a8703690154cbf94ebd122764b8bdb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/bd78319fec34411a809b2a26381211dc/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Controller_OVRControllerVisual.prefab using Guid(a8703690154cbf94ebd122764b8bdb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9599ad574e66ea5ca7daa734130c156a') in 0.1541732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1280
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.895980 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-advertising.mat
+  artifactKey: Guid(726ab327c8bab9f4ca81cb01f76abdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-advertising.mat using Guid(726ab327c8bab9f4ca81cb01f76abdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6dff56ef8d0b7b2a3f56dc002b89ee6') in 0.0281696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_AlbedoTransparency.tga
+  artifactKey: Guid(a4273bccc6e890b4ea051890c5dfc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/metal_warehouse_1_AlbedoTransparency.tga using Guid(a4273bccc6e890b4ea051890c5dfc5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92556ec72cae35823b7c9ec0c6525b7f') in 0.0071476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionIndicatorMaterial.mat
+  artifactKey: Guid(4e0a619994ca455408e99b053f9e35f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionIndicatorMaterial.mat using Guid(4e0a619994ca455408e99b053f9e35f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8282cdec3c14bcf51a57ad6135e8df') in 0.0057661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProLeft_Material.mat
+  artifactKey: Guid(243083b7c73258447b6bf017c75f4a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProLeft_Material.mat using Guid(243083b7c73258447b6bf017c75f4a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e1ca4a195c6783e0bca2cbe73af1a89') in 0.0148698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-metal.mat
+  artifactKey: Guid(36fe5d8da07d4c54a926eaa75f92f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/kiosk-metal.mat using Guid(36fe5d8da07d4c54a926eaa75f92f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37bcee2596dd2c1e2eb6cb55140bd20c') in 0.0091292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionPointer.fbx
+  artifactKey: Guid(fedc4a8ac3e67bf4085c38ca5fec7f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionPointer.fbx using Guid(fedc4a8ac3e67bf4085c38ca5fec7f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1d31dad7964c0569e765452465f0ae9') in 0.035462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionControllerInteractorGroup.prefab
+  artifactKey: Guid(5709ee364bcf0cd43b391505aab79a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionControllerInteractorGroup.prefab using Guid(5709ee364bcf0cd43b391505aab79a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b7c3430be7c3b083fea5acb2d157d8e') in 0.0207579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 188
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Normals.png
+  artifactKey: Guid(4120d73f7100f234b8969c7de9c0d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Normals.png using Guid(4120d73f7100f234b8969c7de9c0d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4e93a610bc139d36a3edbf1191ae218') in 0.0113347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Left.fbx
+  artifactKey: Guid(d7b388d3f4320b44eaa063626d563baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestTouchPlus_Left.fbx using Guid(d7b388d3f4320b44eaa063626d563baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '613bd7075b9afb2d4b3a5c62b0457123') in 2.010634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandGrabInteractor.prefab
+  artifactKey: Guid(f44259e4d5334724b9e1838f2ef5ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandGrabInteractor.prefab using Guid(f44259e4d5334724b9e1838f2ef5ced4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a13da12c75f87273a7802ca7981cbf') in 0.0083775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandGrabUseInteractor.prefab
+  artifactKey: Guid(341ce9ab7ef4855438d0df5e6fcfa2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandGrabUseInteractor.prefab using Guid(341ce9ab7ef4855438d0df5e6fcfa2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ebbb120140ed8ab001245003b37990') in 0.0036301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Base color.png
+  artifactKey: Guid(925755e2e92b80f4385568c072e9e3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Base color.png using Guid(925755e2e92b80f4385568c072e9e3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '237b74476ba524bdf673b8332090872f') in 0.0068638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Controller_OVRControllerVisual.prefab
+  artifactKey: Guid(2a8115cc37f30294d932faf5d30ca131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Controller_OVRControllerVisual.prefab using Guid(2a8115cc37f30294d932faf5d30ca131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f89e09750fb5d3645bd4def1b89157c8') in 0.1129584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1280
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_l_lo_BaseColor.png
+  artifactKey: Guid(21c947a52d7b05e4ba69ea26f2148ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_l_lo_BaseColor.png using Guid(21c947a52d7b05e4ba69ea26f2148ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc44c348cc2c447d96394b1ae9f6953c') in 0.0065511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/batteryIndicator_mat.mat
+  artifactKey: Guid(1f0e908da8698244d94896269d497183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/batteryIndicator_mat.mat using Guid(1f0e908da8698244d94896269d497183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9573e9c08cca0ef384036c39dcf133b') in 0.0073042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Cube.prefab
+  artifactKey: Guid(68ae65d9d7b1c934085a257f47957551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Cube.prefab using Guid(68ae65d9d7b1c934085a257f47957551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29065f2f3401eaac8cb8807d9fc9e824') in 0.006662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Controllers.prefab
+  artifactKey: Guid(3f77b1c4dc5849a498ddf54e49909be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Controllers.prefab using Guid(3f77b1c4dc5849a498ddf54e49909be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fec4c5d69c34cdfed61d9eb49e7ea6c') in 0.0016719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandSphereMap.prefab
+  artifactKey: Guid(fa44aa917e84b36439892b0099c33846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandSphereMap.prefab using Guid(fa44aa917e84b36439892b0099c33846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ec4e8be14438190fad242b7336ab5e8') in 0.0281318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 580
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProRight_Material.mat
+  artifactKey: Guid(a892aad9e8a56894087a63f5ed738e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/MetaQuestProRight_Material.mat using Guid(a892aad9e8a56894087a63f5ed738e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd376089b4a0365f90a749e33e7f422bf') in 0.0103604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01.fbx
+  artifactKey: Guid(e0d3e8590c6bf4148a48de81ba2d3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01.fbx using Guid(e0d3e8590c6bf4148a48de81ba2d3bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e65caad839d7325092b6ea14a2e2c1b') in 0.0093859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_r_lo_Normal.png
+  artifactKey: Guid(276bc3f87f83d2245bc3daac2fe63ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_r_lo_Normal.png using Guid(276bc3f87f83d2245bc3daac2fe63ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e309650df21a2e51de61070dc0c4a60f') in 0.0080965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DistanceReticle.mat
+  artifactKey: Guid(cc091aaebd3c24b41970093b7eda4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DistanceReticle.mat using Guid(cc091aaebd3c24b41970093b7eda4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb4cf62ddcffe0cb0c5846793cbdc54c') in 0.0078743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DistanceHandGrabInteractor.prefab
+  artifactKey: Guid(3455f4de9fabb65499a4461497979112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DistanceHandGrabInteractor.prefab using Guid(3455f4de9fabb65499a4461497979112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49f5daf9d4dde40bc5e7c8279aee27a2') in 0.0033032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerSlide.prefab
+  artifactKey: Guid(89995b196632331428a7ed09ded4db1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerSlide.prefab using Guid(89995b196632331428a7ed09ded4db1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba03da08441c2af5cb24537517bb7a6') in 0.0018187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_l_lo_Normal.png
+  artifactKey: Guid(d28dcec037b463d4c8085b2228b9490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/controller_l_lo_Normal.png using Guid(d28dcec037b463d4c8085b2228b9490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5ecbbcb56a2d1a9225b6df8f386ac5d') in 0.0076878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ArcVisual.prefab
+  artifactKey: Guid(a595137d4d880b6498492fad5ae619d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ArcVisual.prefab using Guid(a595137d4d880b6498492fad5ae619d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6367c2c8ccf0353cdd845ae946f8c04') in 0.0066211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandTurnerInteractor.prefab
+  artifactKey: Guid(e643ad037dbcede4baa33d17e26b9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/HandTurnerInteractor.prefab using Guid(e643ad037dbcede4baa33d17e26b9797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52f79f1387010566f01164ca24b1b4e9') in 0.0085559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Base color.mat
+  artifactKey: Guid(92f228c6e905921489dc64e27ec24845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/Base color.mat using Guid(92f228c6e905921489dc64e27ec24845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '515866356dec2fb23547b46e171546b3') in 0.008077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerStep.prefab
+  artifactKey: Guid(85199cd2c3177574daa64c8c2a87f07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerStep.prefab using Guid(85199cd2c3177574daa64c8c2a87f07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e67945feed6de10a42221385e8e2d1d') in 0.0017592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/batteryIndicatorTexture32.png
+  artifactKey: Guid(42d767fedefc5974c952bd7c23139e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/batteryIndicatorTexture32.png using Guid(42d767fedefc5974c952bd7c23139e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e0b3c88e34327407c6cacd0a70eecf3') in 0.004378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.png
+  artifactKey: Guid(c161c0c0f9ec34e4a90daa395f96864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/DWP_Table_01_AlbedoTransparency_URP_METALLIC.png using Guid(c161c0c0f9ec34e4a90daa395f96864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c117cda31ac206ed46ae648bd3d3991') in 0.0068494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/BaseInteractors.prefab
+  artifactKey: Guid(da2cb521d1970134184368e125d1ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/BaseInteractors.prefab using Guid(da2cb521d1970134184368e125d1ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8470889f8fb510a481f2ad6eee33ce18') in 0.0824476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2996
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerTurnerInteractor.prefab
+  artifactKey: Guid(1dff9bbd3e15074488ebd09af6f1f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerTurnerInteractor.prefab using Guid(1dff9bbd3e15074488ebd09af6f1f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd2c325c0df7471d9d4725c84da6890') in 0.0018888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionHandInteractorGroup.prefab
+  artifactKey: Guid(0e35a0c51eecfc04d859897dd9a18c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/LocomotionHandInteractorGroup.prefab using Guid(0e35a0c51eecfc04d859897dd9a18c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd53181fac6d9ed26847c50e87d8196') in 0.0168845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 255
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerDistanceGrabInteractor.prefab
+  artifactKey: Guid(81497b91a47d019409f70e96ef6e7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing SceneTemplates/InMemory/dbdc4b0ff09643e9840e26e18f70ffbb/Untitled/ControllerDistanceGrabInteractor.prefab using Guid(81497b91a47d019409f70e96ef6e7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e00ab1158d974960dac5b7c9bda0db66') in 0.0018245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.033670 seconds.
+  path: Assets/Scenes/Stage2/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Legacy_OVRControllerVisual.prefab
+  artifactKey: Guid(f0d200e789e4c324ab26c043d4d1cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/com.meta.xr.sdk.interaction.ovr_Runtime_Prefabs_Legacy_OVRControllerVisual.prefab using Guid(f0d200e789e4c324ab26c043d4d1cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b1126f28ca2048bdf3ed3b0009ec878') in 0.1046648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1539
+
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.59 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8772 unused Assets / (4.5 MB). Loaded Objects now: 9841.
+Memory consumption went from 194.0 MB to 189.5 MB.
+Total: 10.917200 ms (FindLiveObjects: 0.571200 ms CreateObjectMapping: 0.412000 ms MarkObjects: 8.145900 ms  DeleteObjects: 1.787200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.644 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.86 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.80 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.34 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (5.0 MB). Loaded Objects now: 9744.
+Memory consumption went from 196.8 MB to 191.9 MB.
+Total: 9.040900 ms (FindLiveObjects: 0.835100 ms CreateObjectMapping: 0.415100 ms MarkObjects: 5.872800 ms  DeleteObjects: 1.916800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.90 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8770 unused Assets / (4.7 MB). Loaded Objects now: 9732.
+Memory consumption went from 194.9 MB to 190.1 MB.
+Total: 8.877500 ms (FindLiveObjects: 0.581600 ms CreateObjectMapping: 0.373800 ms MarkObjects: 6.183500 ms  DeleteObjects: 1.737400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.657 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.94 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.58 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.55 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.8 MB). Loaded Objects now: 9747.
+Memory consumption went from 195.1 MB to 190.3 MB.
+Total: 8.185600 ms (FindLiveObjects: 0.539500 ms CreateObjectMapping: 0.372700 ms MarkObjects: 5.424900 ms  DeleteObjects: 1.847600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.00 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8770 unused Assets / (4.7 MB). Loaded Objects now: 9735.
+Memory consumption went from 194.7 MB to 190.0 MB.
+Total: 10.764800 ms (FindLiveObjects: 1.218100 ms CreateObjectMapping: 0.688600 ms MarkObjects: 6.998500 ms  DeleteObjects: 1.858300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.637 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.42 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.19 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.15 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.8 MB). Loaded Objects now: 9750.
+Memory consumption went from 195.1 MB to 190.4 MB.
+Total: 8.148500 ms (FindLiveObjects: 0.537100 ms CreateObjectMapping: 0.444300 ms MarkObjects: 5.367600 ms  DeleteObjects: 1.798000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.63 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8770 unused Assets / (4.6 MB). Loaded Objects now: 9738.
+Memory consumption went from 194.7 MB to 190.1 MB.
+Total: 7.875800 ms (FindLiveObjects: 0.591300 ms CreateObjectMapping: 0.382000 ms MarkObjects: 5.159300 ms  DeleteObjects: 1.742300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.634 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.00 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.48 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1364ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.55 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.8 MB). Loaded Objects now: 9753.
+Memory consumption went from 195.2 MB to 190.3 MB.
+Total: 8.118000 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.382300 ms MarkObjects: 5.381600 ms  DeleteObjects: 1.810200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.643 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.69 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.48 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1370ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.50 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.8 MB). Loaded Objects now: 9756.
+Memory consumption went from 195.1 MB to 190.3 MB.
+Total: 8.044300 ms (FindLiveObjects: 0.534100 ms CreateObjectMapping: 0.368400 ms MarkObjects: 5.307800 ms  DeleteObjects: 1.833000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.92 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8770 unused Assets / (4.0 MB). Loaded Objects now: 9744.
+Memory consumption went from 194.7 MB to 190.7 MB.
+Total: 11.986600 ms (FindLiveObjects: 0.688900 ms CreateObjectMapping: 0.369500 ms MarkObjects: 8.634900 ms  DeleteObjects: 2.291600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.714 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 17.35 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.36 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1608ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (896ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.50 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.9 MB). Loaded Objects now: 9759.
+Memory consumption went from 195.3 MB to 190.4 MB.
+Total: 11.388300 ms (FindLiveObjects: 0.667900 ms CreateObjectMapping: 0.617300 ms MarkObjects: 7.388600 ms  DeleteObjects: 2.713100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.69 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8770 unused Assets / (5.4 MB). Loaded Objects now: 9747.
+Memory consumption went from 194.9 MB to 189.5 MB.
+Total: 12.087100 ms (FindLiveObjects: 0.530900 ms CreateObjectMapping: 0.402600 ms MarkObjects: 7.807400 ms  DeleteObjects: 3.344600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.653 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.26 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.71 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 1620ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.64 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.7 MB). Loaded Objects now: 9762.
+Memory consumption went from 195.3 MB to 190.6 MB.
+Total: 8.210300 ms (FindLiveObjects: 1.184800 ms CreateObjectMapping: 0.239500 ms MarkObjects: 5.207700 ms  DeleteObjects: 1.577100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.665 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.30 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.81 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1428ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (764ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.30 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.7 MB). Loaded Objects now: 9765.
+Memory consumption went from 195.4 MB to 190.6 MB.
+Total: 8.054000 ms (FindLiveObjects: 0.552400 ms CreateObjectMapping: 0.387900 ms MarkObjects: 5.218700 ms  DeleteObjects: 1.893600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.627 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.24 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 9.51 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.53 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.7 MB). Loaded Objects now: 9768.
+Memory consumption went from 195.4 MB to 190.7 MB.
+Total: 8.604900 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.391100 ms MarkObjects: 5.747900 ms  DeleteObjects: 1.906200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.638 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.34 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.11 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.40 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8844 unused Assets / (4.6 MB). Loaded Objects now: 9771.
+Memory consumption went from 195.3 MB to 190.8 MB.
+Total: 8.174800 ms (FindLiveObjects: 0.593000 ms CreateObjectMapping: 0.399000 ms MarkObjects: 5.383700 ms  DeleteObjects: 1.797500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 861.352929 seconds.
+  path: Assets/Scenes/Stage2/MetaQuestProRight_Material.fbx
+  artifactKey: Guid(0ca4e42160d482e4291a4ce32b66eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/MetaQuestProRight_Material.fbx using Guid(0ca4e42160d482e4291a4ce32b66eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfc7dd7da8e6bf53736db72665a3fbb2') in 0.6361488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Stage2/OculusTouchForRift_Material.mat
+  artifactKey: Guid(89592d612198c0440a937353185f3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusTouchForRift_Material.mat using Guid(89592d612198c0440a937353185f3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df9ffae380ad377333054b19f97fe169') in 0.0125558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Stage2/OculusHandWire.mat
+  artifactKey: Guid(e6947fbdd5bb01445964a2e9fa9716da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusHandWire.mat using Guid(e6947fbdd5bb01445964a2e9fa9716da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1413f917099ae3538b3bd782e47d993') in 0.0094588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Stage2/OVRLeftHandReticle.prefab
+  artifactKey: Guid(e26b12f0bb5029341ac1a75b83b1661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRLeftHandReticle.prefab using Guid(e26b12f0bb5029341ac1a75b83b1661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4de9c6e2e9838e72d12bad77a3370f31') in 0.0241293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 694
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Stage2/OVRLeftHandVisual.prefab
+  artifactKey: Guid(045f703a9a49fd045becc1ddf2b62c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRLeftHandVisual.prefab using Guid(045f703a9a49fd045becc1ddf2b62c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d9962d8a00c07e4883dcd0d126aa2c') in 0.0124981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Stage2/OVRRightHandVisual.prefab
+  artifactKey: Guid(e5dc00d870b2d74499aaf1eb96389697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRRightHandVisual.prefab using Guid(e5dc00d870b2d74499aaf1eb96389697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53917f133c9f805c09e1093c99be9b6b') in 0.0125136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 231
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Left.fbx
+  artifactKey: Guid(2a29e72f1fad88a4fa90cd1ee42724bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Left.fbx using Guid(2a29e72f1fad88a4fa90cd1ee42724bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a53c4100c82da5ba34229fc3e52e0b') in 0.0241765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Stage2/OVRHmd.prefab
+  artifactKey: Guid(977e30e1d079ce548b0a5d9e72dd1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRHmd.prefab using Guid(977e30e1d079ce548b0a5d9e72dd1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbba159f303fe72dc6ee34d9dfb85ad0') in 0.004753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Stage2/ProceduralArcMaterial.mat
+  artifactKey: Guid(94cb4a29848877f479d4deeb52b54a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/ProceduralArcMaterial.mat using Guid(94cb4a29848877f479d4deeb52b54a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e714096560c466e6633c4e0eb491ce8') in 0.0070364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Stage2/pasted_touchPBS_MAT.fbx
+  artifactKey: Guid(2c67f8f1b69346c4288215bf84303977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/pasted_touchPBS_MAT.fbx using Guid(2c67f8f1b69346c4288215bf84303977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b55ef8043ec5df98b67a4fd63d1f143') in 0.0177367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Stage2/right_touch_controller_model_skel.fbx
+  artifactKey: Guid(0ae5c4fa6ced8cb4195cc87997af2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/right_touch_controller_model_skel.fbx using Guid(0ae5c4fa6ced8cb4195cc87997af2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2f9c2237f3fd9e4f97cd083c1e81a13') in 0.0224778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Stage2/OpenXRLeftHand.fbx
+  artifactKey: Guid(9add179d23e9b5649b5c52736434a4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OpenXRLeftHand.fbx using Guid(9add179d23e9b5649b5c52736434a4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b33740bb2ca08e030085c01fa4ec00ba') in 0.0177048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Stage2/Reticle-Dot.png
+  artifactKey: Guid(d020468b316f12e4fae5bbce3ff7d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/Reticle-Dot.png using Guid(d020468b316f12e4fae5bbce3ff7d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dca56d01ca545053cec916b698a51c06') in 0.025055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Stage2/ReticleMesh.prefab
+  artifactKey: Guid(185756f53d3d49f40a17bc4e30183a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/ReticleMesh.prefab using Guid(185756f53d3d49f40a17bc4e30183a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ee9587b5515b5cba486f67d4e2ec4ab') in 0.0023188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Stage2/MetaQuestTouchPro_Right.fbx
+  artifactKey: Guid(1568a29577dd09b46833aafc7a068b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/MetaQuestTouchPro_Right.fbx using Guid(1568a29577dd09b46833aafc7a068b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '795ebc47e59ba680718237c37ec829ec') in 0.047057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Stage2/OculusQuestTouchControllerTexture.tga
+  artifactKey: Guid(41dbb5b0dc1da5e45beb7aa27f48a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusQuestTouchControllerTexture.tga using Guid(41dbb5b0dc1da5e45beb7aa27f48a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5397a837f655c8debf22d032d004ef1') in 0.0085029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Stage2/OculusTouchForQuest2_MAT.fbx
+  artifactKey: Guid(2f04c9e702eceef47b416787ed5d90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusTouchForQuest2_MAT.fbx using Guid(2f04c9e702eceef47b416787ed5d90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f69305f047814abb17ee848663ea4d5') in 0.0202546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Stage2/OVRRightHandReticle.prefab
+  artifactKey: Guid(852cf222abe882e4483e4e30b2a317fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRRightHandReticle.prefab using Guid(852cf222abe882e4483e4e30b2a317fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e1cc19a47f199adf7d895fc374215a3') in 0.0182811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 694
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Material.mat
+  artifactKey: Guid(c45a7532fbc9b8f429789fe8a0bed37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Material.mat using Guid(c45a7532fbc9b8f429789fe8a0bed37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0cdeae1188f913e1a3b0866c7abad21') in 0.0079788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Stage2/MetaQuestTouchPlusLeft_Material.fbx
+  artifactKey: Guid(7d0d7ab0b9c08c14b9c3dff51de99e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/MetaQuestTouchPlusLeft_Material.fbx using Guid(7d0d7ab0b9c08c14b9c3dff51de99e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7ffcc1fe1ae48749689f66e859916a0') in 0.0205143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Stage2/OVRHand_R.fbx
+  artifactKey: Guid(296f13a6f0af4144db7e64a63adcc853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRHand_R.fbx using Guid(296f13a6f0af4144db7e64a63adcc853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7c7866482bf9a7e10e08a5cb74b674') in 0.0240961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Stage2/OVRRightHandSynthetic.prefab
+  artifactKey: Guid(f96b4e33ae1490a43b84fffa14c6f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRRightHandSynthetic.prefab using Guid(f96b4e33ae1490a43b84fffa14c6f0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '361df29baf328b7df7d368209febf441') in 0.0141933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 460
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Material.fbx
+  artifactKey: Guid(166e28a35902453439555e0d6d9188dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusTouchForQuestAndRiftS_Material.fbx using Guid(166e28a35902453439555e0d6d9188dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9274ace91b273ce45f3db5727660db5') in 0.0174285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Stage2/piano.prefab
+  artifactKey: Guid(10c36ca3d98784a419a508bf12edbd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/piano.prefab using Guid(10c36ca3d98784a419a508bf12edbd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bef85c06bf2b4fe0e6c1f4737653a829') in 0.0115312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 224
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Stage2/MetaQuestTouchPlus_Right.fbx
+  artifactKey: Guid(d0a66b9f859425c4c947eba751b0d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/MetaQuestTouchPlus_Right.fbx using Guid(d0a66b9f859425c4c947eba751b0d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3129357f6133cdc7c26031548f9cd5f2') in 0.0417015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Stage2/OculusControllerRayMaterial.mat
+  artifactKey: Guid(f7c788de47f2193409dd8194a07b8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusControllerRayMaterial.mat using Guid(f7c788de47f2193409dd8194a07b8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c9101a06fa04dca274927ea3276ddf') in 0.0064684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Stage2/ReticleLine.prefab
+  artifactKey: Guid(ce1f17ac0c779d047a3dd6c737e55c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/ReticleLine.prefab using Guid(ce1f17ac0c779d047a3dd6c737e55c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fedb06f04dd1b10d471da4f5b365f85c') in 0.0029656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Stage2/OVRControllerPrefab.prefab
+  artifactKey: Guid(fe329784bfba5d144ad2a388a67e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRControllerPrefab.prefab using Guid(fe329784bfba5d144ad2a388a67e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631e9d8de0ddcc461d97e9d4c0bdcec8') in 0.1100765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1022
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Stage2/OculusHandPinchMaterial.mat
+  artifactKey: Guid(786f12edfcf8fdc45b0d6e525848f36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusHandPinchMaterial.mat using Guid(786f12edfcf8fdc45b0d6e525848f36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f4cf064efb31fa3d9006efe6811394e') in 0.0371007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Stage2/ReticleIcon.prefab
+  artifactKey: Guid(a98f263860ef45f4898d943428846729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/ReticleIcon.prefab using Guid(a98f263860ef45f4898d943428846729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e1796781c81b464feb71bc388949fb') in 0.0074646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Stage2/MetaQuestTouchPlusMATphong_left.mat
+  artifactKey: Guid(db8141d72e74d8b43ac893d5bcc0a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/MetaQuestTouchPlusMATphong_left.mat using Guid(db8141d72e74d8b43ac893d5bcc0a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd473f0a8332f34a5d42c1b697d9f076') in 0.0157792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Stage2/RoundedBoxUnlit.mat
+  artifactKey: Guid(dca2f18f2a799924ea2f40a66ca496ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/RoundedBoxUnlit.mat using Guid(dca2f18f2a799924ea2f40a66ca496ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef5a7a9d3543cbae00ee1990a6e3b23a') in 0.0203533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Stage2/OculusHandPinchArrowBlended.fbx
+  artifactKey: Guid(7cf50359e26892c4e824c7e15a5b8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OculusHandPinchArrowBlended.fbx using Guid(7cf50359e26892c4e824c7e15a5b8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e63c79578114f968a89034b6dda5493d') in 0.0125188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes/Stage2/OVRLeftHandSynthetic.prefab
+  artifactKey: Guid(a6834deef5f2ae64b99df194f06518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRLeftHandSynthetic.prefab using Guid(a6834deef5f2ae64b99df194f06518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4647ec7f383d3f838f07a872a6c8520') in 0.014545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 460
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Stage2/OVRControllersDataSource.prefab
+  artifactKey: Guid(3f4a55cc821bb6c4ea057fb48ea5c546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRControllersDataSource.prefab using Guid(3f4a55cc821bb6c4ea057fb48ea5c546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4f383049e7626992073e8111d8accde') in 0.0029468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Stage2/OVRInteractionComprehensive_legacy.prefab
+  artifactKey: Guid(f731ac6c39dbff04c9e00602a02c7bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage2/OVRInteractionComprehensive_legacy.prefab using Guid(f731ac6c39dbff04c9e00602a02c7bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e21864a90fd099e0c209e56f996a7d6') in 0.3887617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16947
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.671 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.99 ms, found 16 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.71 ms, found 16 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.739 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (740ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.54 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8846 unused Assets / (4.9 MB). Loaded Objects now: 9796.
+Memory consumption went from 200.1 MB to 195.2 MB.
+Total: 9.445300 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.432100 ms MarkObjects: 6.166100 ms  DeleteObjects: 2.219600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
